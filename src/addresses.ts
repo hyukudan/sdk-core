@@ -75,7 +75,7 @@ const MAGMA_ADDRESSES: ChainAddresses = {
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
   [ChainId.MAINNET]: MAINNET_ADDRESSES,
   [ChainId.GOERLI]: GOERLI_ADDRESSES,
-  [ChainId.MAGMA]: MAGMA_ADDRESSES
+  [ChainId.MAGMA_SEPOLIA]: MAGMA_ADDRESSES
 }
 
 /* V3 Contract Addresses */
